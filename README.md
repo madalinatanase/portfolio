@@ -2,6 +2,10 @@
 
 
 ## Example 1
+
+Here I made a virtual table to help me narrow down my columns (and rows) to a minimum so I can be more effective.
+
+I prefer using CTEs (common table expressions) to making nested queries because they are easier to read and reuse.
 ```
 with base as (
     select age_group,country,count(*) as COUNT 
